@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <style>
+        a.transition2 {
+            margin: auto;
+            display: block;
+            text-decoration: none;
+            text-align: center;
+            padding: 1em;
+            width: 20em;
+            border-radius: 2em;
+            background-color: blue;
+            color: #fff;
+            transition-property: background-color, border-radius;
+            transition-duration: 1s, 3s;
+        }
+
+        a.transition2:hover,
+        a.transition2:focus {
+            background-color: green;
+            border-radius: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <a class="transition2" href="#">Hover Here</a>
+</body>
+
+</html>

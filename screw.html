@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <style>
+        .container {
+            position: relative;
+            width: 800px;
+            height: 300px;
+            padding: 120px;
+        }
+
+        .one,
+        .four {
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin: 150px;
+        }
+
+        .one {
+            margin-top: 50px;
+            margin-bottom: 50px;
+            opacity: .3;
+        }
+
+        .four {
+            transform: skew(15deg, 20deg);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="butterfly.jpg" class="one">
+        <img src="butterfly.jpg" class="four">
+    </div>
+</body>
+
+</html>

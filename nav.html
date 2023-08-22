@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>HTML </title>
+ <style>
+    /* Add a black background color to the top navigation */
+	.navbar {
+	  background-color: #CCCCCC;
+	  overflow: hidden;
+	  display: flex;
+	  justify-content:center;
+	}
+	/* Style the links inside the navigation bar */
+	.navbar a {
+	  
+	  color: #f1f2f3;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-size: 18px;
+	}
+	.navbar img {
+	   border-radius: 16px;
+	   width:100px;
+	   height: 50px;
+	   padding: 0 16px;
+	}
+	/* Change the color of links on hover */
+	.navbar a:hover {
+	  background-color: #ff7b00;
+	  color: black;
+	}
+	/* Add a color to the active/current link */
+	.navbar a.active {
+	  background-color: #9efd06;
+	  color: white;
+	}
+ </style>
+</head>
+<body>
+   <div class="navbar">
+      <img src="logo.png">
+	  <a class="active" href="#">Home</a>
+	  <a href="#about">About</a>
+	  <a href="#contact">Contact Us</a>
+      <a href="#signin">Sign In</a>
+	</div>
+	
+</body>
+</html>
